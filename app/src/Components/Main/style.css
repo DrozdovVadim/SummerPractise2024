@@ -1,0 +1,30 @@
+.slick-prev,
+.slick-next {
+  @apply bg-opacity-50  w-10 h-10 flex justify-center items-center  ; /* Применение стилей Tailwind CSS */
+}
+
+.stick-arrow
+{
+  @apply bg-inherit
+}
+
+.slick-prev:before,
+.slick-next:before {
+  @apply text-black text-xl ; /* Применение стилей текста Tailwind CSS */
+}
+
+.slick-prev {
+  left: -2.5rem;
+}
+
+.slick-next {
+  right: -2.5rem;
+}
+
+
+.slick-prev, .slick-next {
+  position: absolute;
+  top: 50%; /* Позиционируйте стрелки по центру вертикали */
+  transform: translateY(-50%); /* Центрируйте стрелки относительно их высоты */
+  z-index: 1; /* Убедитесь, что стрелки отображаются выше элементов слайдера */
+}

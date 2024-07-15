@@ -1,0 +1,59 @@
+.infBar{
+    @apply  h-20 flex flex-row justify-between items-center w-5/6 mx-auto flex-wrap 2xl:w-4/6 
+}
+.logo
+{
+    @apply  w-14 h-10 flex 
+}
+.rectangle
+{
+    @apply absolute rounded-full bg-sun-yellow w-8 h-8 -z-10 left-[275px] 
+}
+.logoName
+{
+    @apply relative z-10 text-4xl
+}
+.inputWrapper
+{
+    @apply border border-black rounded-xl flex 
+}
+.searchImg
+{
+    @apply h-6 z-auto max-[768px]:bg-white max-[768px]:rounded-l-xl
+}
+.input
+{
+    @apply rounded-r-xl right-0 
+}
+.sBagWrapper
+{
+    @apply rounded-xl bg-black text-white w-28 h-[24px] flex justify-around text-sm items-center
+}
+
+
+.navBarCont
+{
+    @apply bg-nav-yellow w-full max-[768px]:hidden 
+}
+.sticky {
+    @apply bg-nav-yellow w-full fixed top-0 z-10 max-[768px]:hidden
+}
+.navBar
+{
+    @apply h-12 bg-nav-yellow flex justify-between  w-5/6 mx-auto flex-wrap 2xl:w-4/6
+}
+.leftSideNav{
+    @apply flex w-1/4 justify-between items-center
+}
+.rightSideNav
+{
+    @apply flex w-2/4 justify-between items-center
+}
+.asideOff
+{
+    @apply hidden
+}
+.asideOn
+{
+    @apply   w-fit h-fit flex flex-col gap-5 right-0 bg-slate-400 rounded-md fixed z-10
+}
