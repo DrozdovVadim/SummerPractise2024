@@ -114,7 +114,7 @@ function New()
                           <div className="w-full flex justify-end">
                           {
                             item.new ?
-                            <p className="absolute bg-light-green text-white pl-3 pr-1 w-fit">{item.new}</p> 
+                            <p className="absolute bg-light-green text-white pl-3 pr-1 w-fit max-[768px]:text-xs">{item.new}</p> 
                             : ''
                           }
                           </div>

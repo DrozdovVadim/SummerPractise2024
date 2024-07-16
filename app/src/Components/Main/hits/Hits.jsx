@@ -114,9 +114,9 @@ function Hits()
                           <div className="w-full flex justify-end">
                           {
                             item.saving ?
-                            <div className="absolute flex flex-col gap-2 items-end ">
-                                <p className="bg-orange-500 w-fit px-2 text-sm">{item.discaunt}</p>
-                                <p className="bg-gray-500 h-fit text-xs text-white ">{item.saving}</p>
+                            <div className="absolute flex flex-col gap-2 items-end max-[768px]:gap-0">
+                                <p className="bg-orange-500 w-fit px-2 text-sm max-[768px]:text-[7px]">{item.discaunt}</p>
+                                <p className="bg-gray-500 h-fit text-xs text-white max-[768px]:text-[6px]  ">{item.saving}</p>
                             </div> 
                             : ''
                           }
