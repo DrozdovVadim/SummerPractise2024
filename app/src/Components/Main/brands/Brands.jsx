@@ -28,7 +28,7 @@ function Brands()
           {
             breakpoint: 2560,
             settings: {
-              slidesToShow: 4,
+              slidesToShow: 5,
               slidesToScroll: 2,
               infinite: true,
               dots: false
@@ -37,7 +37,7 @@ function Brands()
           {
             breakpoint: 1440,
             settings: {
-              slidesToShow: 4,
+              slidesToShow: 5,
               slidesToScroll: 2,
               initialSlide: 2
             }

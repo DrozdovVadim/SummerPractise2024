@@ -74,31 +74,35 @@ function New()
             name: "Подвестная люстра Mytony Crazia MOD46PL-08CH",
             oldPrice: '29370',
             newPrice: "19'677",
+            new: "New",
         },
         {
             img: img2,
             name: "Подвестная люстра Mytony Crazia MOD46PL-08CH",
             oldPrice: '29370',
             newPrice: "19'677",
+            new: "New",
         },
         {
             img: img3,
             name: "Подвестная люстра Mytony Crazia MOD46PL-08CH",
             oldPrice: '29370',
             newPrice: "19'677",
+            new: "New",
         },
         {
             img: img4,
             name: "Подвестная люстра Mytony Crazia MOD46PL-08CH",
             oldPrice: '29370',
             newPrice: "19'677",
+            new: "New",
         },
     ]
     return(
         <section className="mt-12">
              <div className="flex items-center mb-12">
                 <div  className="bg-grey h-[2px] w-full"></div>
-                <div className="mx-[5%] font-semibold uppercase">Новинки</div>
+                <div className="min-w-36 mx-[5%] font-semibold uppercase text-lg">Новинки</div>
                 <div className=" bg-grey h-[2px] w-full"></div>
             </div>
             <div className="w-4/6 mx-auto">
@@ -107,6 +111,13 @@ function New()
                 {
                     data.map(item =>
                         <div>
+                          <div className="w-full flex justify-end">
+                          {
+                            item.new ?
+                            <p className="absolute bg-light-green text-white pl-3 pr-1 w-fit">{item.new}</p> 
+                            : ''
+                          }
+                          </div>
                         <div className="flex flex-col items-center gap-6 h-fit">
                             <img className="w-[332px]" src={item.img} alt="img" />
                             <p className="w-2/3 text-sm font-semibold underline max-[465px]:text-xs">{item.name}</p>

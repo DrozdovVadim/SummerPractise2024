@@ -7,7 +7,7 @@ import img4 from "../../images/Footer/Clock.png"
 function Footer()
 {
     return(
-        <footer className="bg-black ">
+        <footer className="bg-black min-[769px]:pt-12">
             <section className="flex justify-around w-full text-white max-[465px]:flex-col max-[465px]:text-[10px] max-[465px]:pl-5">
             <div className="flex flex-col gap-2">
                 <p className="text-nav-yellow text-2xl  uppercase text-start mb-2">Каталог</p>

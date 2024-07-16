@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         'sun-yellow': '#ffe954',
         'nav-yellow': '#ffde00',
+        'light-green': "#44ae1a",
         'grey': '#bababa'
       }
     },

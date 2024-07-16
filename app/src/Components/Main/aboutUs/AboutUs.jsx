@@ -8,7 +8,7 @@ function AboutUs()
             
             <div className="w-4/6 flex flex-col ml-auto max-[465px]:w-full">
                 <div className="flex items-center mt-8 max-[465px]:mt-4">
-                    <div className="text-start uppercase  min-w-[200px] mr-3 max-[465px]:min-w-[150px] text-[12px]">Об интернет-магазине</div>
+                    <div className="text-start uppercase  min-w-[300px] mr-3 max-[465px]:min-w-[150px] text-[20px] font-semibold">Об интернет-магазине</div>
                     <div className="rounded-2xl bg-gray-600 h-[1px] w-full"></div>
                 </div>
                 <div>
