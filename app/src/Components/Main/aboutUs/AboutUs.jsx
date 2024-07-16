@@ -8,7 +8,7 @@ function AboutUs()
             
             <div className="w-4/6 flex flex-col ml-auto max-[465px]:w-full">
                 <div className="flex items-center mt-8 max-[465px]:mt-4">
-                    <div className="text-start uppercase  min-w-[300px] mr-3 max-[465px]:min-w-[150px] text-[20px] font-semibold">Об интернет-магазине</div>
+                    <div className="text-start uppercase  min-w-[300px] mr-3 max-[465px]:min-w-[200px] min-[1024px]:text-[20px] font-semibold">Об интернет-магазине</div>
                     <div className="rounded-2xl bg-gray-600 h-[1px] w-full"></div>
                 </div>
                 <div>
@@ -18,7 +18,7 @@ function AboutUs()
                     Доставку заказов мы выполняем в Тулу и в другие города Тульской области – Новомосковск, Донской, Алексин, Щекино, Ефремов, Богородицк, Плавск и прочие населенные пункты. Отправку производим любой транспортной или курьерской компанией на Ваш выбор (Деловые линии, ПЭК, СДЭК, Boxberry). Обращаем ваше внимание, что ограничений на минимальную стоимость заказа для доставки в регионы у нас нет.</p>
                 </div>
                 
-                <a className="block rounded-full text-center bg-black text-white h-fit py-3 max-[375px]:text-[10px] w-1/4 mt-5 max-[1024px]:text-sm max-[1024px]:w-1/2 max-[465px]:h-[45px] max-[465px]:ml-2">Подробнее о нашей компании</a>
+                <a className="block rounded-full text-center bg-black text-white h-fit py-3 max-[375px]:text-[10px] w-1/4 mt-5 max-[1024px]:text-sm max-[1024px]:w-1/2 max-[465px]:h-[45px] max-[465px]:ml-2 max-[320px]:w-2/3">Подробнее о нашей компании</a>
            </div>
             
 
