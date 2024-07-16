@@ -118,7 +118,7 @@ function New()
                             : ''
                           }
                           </div>
-                        <div className="flex flex-col items-center gap-6 h-fit">
+                        <a href="#" className="flex flex-col items-center gap-6 h-fit">
                             <img className="w-[332px]" src={item.img} alt="img" />
                             <p className="w-2/3 text-sm font-semibold underline max-[465px]:text-xs">{item.name}</p>
                             {
@@ -138,7 +138,7 @@ function New()
                                 </p>
                             </a>
                             
-                        </div>
+                        </a>
                         </div>
                     )
                 }

@@ -32,7 +32,7 @@ function Styles() {
       {
         breakpoint: 1440,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 4,
           slidesToScroll: 2,
           initialSlide: 2
         }
@@ -99,10 +99,16 @@ function Styles() {
       {
                 data.map(item =>
                   
-                  <div className="w-[344px] h-[190px] max-[1024px]:w-[300px]">
-                     <div className="w-[344px] h-[190px] max-[1024px]:w-[300px] bg-center mx-auto pb-[10px] flex justify-center items-end" style={{backgroundImage: `url(${item.img})`}}  href="#">
+                  <div className="">
+                     {/* <a href="#" className="w-[344px] h-[190px] max-[1024px]:w-[300px] bg-center mx-auto pb-[10px] flex justify-center items-end" style={{backgroundImage: `url(${item.img})`}}>
                         <p className="text-white text-xl">{item.name}</p>
-                    </div>
+                    </a> */}
+                    <a className="flex justify-center items-end" href="#">
+                      <div className="absolute text-white text-3xl mb-3 tracking-wider max-[1440px]:text-2xl max-[650px]:text-xl ">
+                        {item.name}
+                      </div>
+                      <img className="w-[98%]" src={item.img} alt="img" />
+                    </a>
                   </div>  
                   
                    

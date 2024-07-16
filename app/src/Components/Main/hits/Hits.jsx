@@ -122,7 +122,7 @@ function Hits()
                           }
                           </div>
                           
-                        <div className="flex flex-col items-center gap-6 h-fit ">
+                        <a href="#" className="flex flex-col items-center gap-6 h-fit ">
                           
                              <img className="w-[332px]" src={item.img} alt="img" /> 
                             
@@ -145,7 +145,7 @@ function Hits()
                                 </p>
                             </a>
                             
-                        </div>
+                        </a>
                         </div>
                     )
                 }

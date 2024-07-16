@@ -29,7 +29,7 @@ function Brands()
             breakpoint: 2560,
             settings: {
               slidesToShow: 5,
-              slidesToScroll: 2,
+              slidesToScroll: 3,
               infinite: true,
               dots: false
             }
@@ -37,7 +37,7 @@ function Brands()
           {
             breakpoint: 1440,
             settings: {
-              slidesToShow: 5,
+              slidesToShow: 3,
               slidesToScroll: 2,
               initialSlide: 2
             }
@@ -45,7 +45,7 @@ function Brands()
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 3,
+              slidesToShow: 2,
               slidesToScroll: 1
             }
           },
@@ -53,7 +53,7 @@ function Brands()
             breakpoint: 	768,
             settings: {
               slidesToShow: 2,
-              slidesToScroll: 2
+              slidesToScroll: 1
           },
         },
         {
@@ -95,7 +95,7 @@ function Brands()
     return(
         <section id="brands" className=" w-full  mt-12 ">
             <div className="flex items-center mb-12 mb ">
-                <div  className="bg-grey h-[2px] w-full"></div>
+                <div  className="bg-grey h-[2px] w-full "></div>
                 <div className=" mx-[5%] font-semibold uppercase">Бренды</div>
                 <div className=" bg-grey h-[2px] w-full"></div>
             </div>
@@ -104,11 +104,16 @@ function Brands()
              className="flex mx-auto justify-between w-4/6 2xl:w-[1700px]  ">
             {
                 data.map(item =>
+     
                     <div>
-                    <div className=" mx-auto bg-center  w-[200px] h-[180px] flex justify-center max-[320px]:w-[150px] items-center " style={{backgroundImage: `url(${item.img})`}}>
-                        <img  className="w-1/2" src={item.logo} alt="logo" />
+                      <a href="#" className=" w-fit mx-auto flex items-center justify-center">
+                        <div className="absolute ">
+                          <img  src={item.logo} alt="logo" />
+                        </div>
+                        <img className="max-[768px]:w-[95%]" src={item.img} alt="img" />
+                      </a>
                     </div>
-                    </div>
+                   
                 )
             }
             </Slider>    
