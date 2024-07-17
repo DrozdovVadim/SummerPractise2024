@@ -101,7 +101,7 @@ function Brands()
             </div>
             <div className="">
             <Slider {...settings}
-             className="flex mx-auto justify-between w-4/6 2xl:w-[1700px]  ">
+             className="flex mx-auto justify-between w-4/6   ">
             {
                 data.map(item =>
      
@@ -110,7 +110,7 @@ function Brands()
                         <div className="absolute ">
                           <img  src={item.logo} alt="logo" />
                         </div>
-                        <img className="max-[768px]:w-[95%]" src={item.img} alt="img" />
+                        <img className="w-[95%] min-[2559px]:w-full" src={item.img} alt="img" />
                       </a>
                     </div>
                    

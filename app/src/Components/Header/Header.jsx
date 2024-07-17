@@ -67,18 +67,18 @@ function Header ()
                 </button>
              </div>
              <div ref={navbarRef} className={sticky ? style.sticky : style.navBarCont}>
-            <div className={style.navBar}>
-                <div className="flex w-1/4 justify-between items-center max-[1024px]:w-2/6">
-                    <a className="hover:bg-white px-2 rounded-2xl" href="#catalog">Каталог товаров</a>
+            <div className="h-12 bg-nav-yellow flex justify-between min-[2400px]:w-4/6 w-5/6 mx-auto flex-wrap min-[2200px]::w-4/6 text-base max-[1024px]:text-[10px]">
+                <div className="flex w-1/4 justify-between items-center max-[1024px]:w-2/6 max-[1536px]:text-[13px]">
+                    <a className="hover:bg-white  px-2 rounded-2xl" href="#catalog">Каталог товаров</a>
                     <a className="hover:bg-white px-2 rounded-2xl" href="#brands">Бренды+</a>
                     <a className="hover:bg-white px-2 rounded-2xl" href="#styles">Стили+</a>
                 </div>
-                <div className="flex w-2/4 justify-between items-center max-[1024px]:w-[500px]">
-                    <a className="hover:bg-white px-2 rounded-2xl uppercase" href="#about">О компании</a>
-                    <a className="hover:bg-white px-2 rounded-2xl uppercase" href="#garranty">Гарантия/Возврат</a>
-                    <a className="hover:bg-white px-2 rounded-2xl uppercase" href="#delivery">ДОСТАВКА/ОПЛАТА</a>
-                    <a className="hover:bg-white px-2 rounded-2xl uppercase" href="#reviews">ОТЗЫВЫ</a>
-                    <a className="hover:bg-white px-2 rounded-2xl uppercase" href="#contacts">КОНТАКТЫ</a>
+                <div className="flex w-[60%] justify-between items-center max-[1024px]:w-[500px]  min-[1812px]:w-[50%]  ">
+                    <a className="hover:bg-white px-1 rounded-2xl uppercase " href="#about">О компании</a>
+                    <a className="hover:bg-white px-1 rounded-2xl uppercase " href="#garranty">Гарантия/Возврат</a>
+                    <a className="hover:bg-white px-1 rounded-2xl uppercase " href="#delivery">ДОСТАВКА/ОПЛАТА</a>
+                    <a className="hover:bg-white px-1 rounded-2xl uppercase " href="#reviews">ОТЗЫВЫ</a>
+                    <a className="hover:bg-white px-1 rounded-2xl uppercase " href="#contacts">КОНТАКТЫ</a>
                 </div>
             </div>
             
